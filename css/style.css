@@ -1,0 +1,124 @@
+h1 {
+  font-size: 3rem; }
+
+.color-boton {
+  background-color: #9f23be;
+  color: black; }
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #eb0d3d;
+  border-color: var(--bs-btn-hover-border-color); }
+
+.navbar {
+  padding: -9rem;
+  --bs-navbar-hover-color: rgb(255, 2, 2); }
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: rgba(255, 255, 255, 0);
+  background-color: white;
+  border: var(--bs-border-width);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition); }
+
+.color-nav {
+  background-color: black; }
+
+.nav-link {
+  color: aliceblue; }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: white; }
+
+.nav-link.disabled {
+  color: white; }
+
+.pie-header {
+  display: flex;
+  background-color: red;
+  height: 35px;
+  color: white;
+  align-items: center;
+  justify-content: space-around; }
+
+.carousel-padre {
+  width: 50vw;
+  margin: 0 auto;
+  padding: 10px; }
+
+.ancho-carousel {
+  width: 100%;
+  flex-wrap: wrap; }
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  justify-content: space-between;
+  padding: 20px; }
+
+.row-card {
+  --bs-gutter-x: -0.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  justify-content: space-between;
+  padding: 20px; }
+
+.card {
+  margin: 5px; }
+
+.noticias {
+  display: flex;
+  background-color: red;
+  height: 35px;
+  color: white;
+  align-items: center;
+  justify-content: space-around; }
+
+.map {
+  justify-content: center;
+  display: flex;
+  padding: 20px; }
+
+.banner {
+  width: 100%;
+  height: auto; }
+
+element.style {
+  max-width: 100%; }
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  flex-wrap: wrap;
+  display: flex;
+  height: 145px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px auto; }
+
+.footer p {
+  width: 290px;
+  height: auto;
+  flex-wrap: wrap; }
+
+.instagram {
+  width: 85px;
+  height: auto; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

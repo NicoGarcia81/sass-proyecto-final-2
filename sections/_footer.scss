@@ -1,0 +1,22 @@
+.footer {
+    background-color: black;
+    color: aliceblue;
+    flex-wrap: wrap;
+    display: flex;
+    height: 145px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.footer p {
+    width: 290px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+
+.instagram {
+    width: 85px;
+    height: auto;
+}
