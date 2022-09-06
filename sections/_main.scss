@@ -72,3 +72,25 @@
 element.style {
     max-width: 100%;
 }
+
+.h3-empresa {
+    color: red;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 30px;
+
+}
+
+.empresa{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 30px;
+}
+.empresa-img{
+    display: flex;
+    justify-content: center
+}
