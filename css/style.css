@@ -114,6 +114,11 @@ element.style {
   margin: 40px;
   padding: 30px; }
 
+.card-certificados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
 .footer {
   background-color: black;
   color: aliceblue;
