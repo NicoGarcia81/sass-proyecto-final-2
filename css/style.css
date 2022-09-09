@@ -119,6 +119,11 @@ element.style {
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
+.card-tanques {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 .footer {
   background-color: black;
   color: aliceblue;

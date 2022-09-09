@@ -83,15 +83,22 @@ element.style {
 
 }
 
-.empresa{
+.empresa {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     margin: 40px;
     padding: 30px;
 }
-.card-certificados{
+
+.card-certificados {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.card-tanques{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
