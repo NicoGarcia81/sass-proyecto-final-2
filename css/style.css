@@ -119,10 +119,21 @@ element.style {
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
-.card-tanques {
+h4 {
+  color: red; }
+
+.titulos-productos {
+  margin: 15px auto;
+  padding: 25px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center; }
+
+.card-productos {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-direction: row; }
 
 .footer {
   background-color: black;
