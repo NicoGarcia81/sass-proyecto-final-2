@@ -45,6 +45,23 @@ h1 {
   align-items: center;
   justify-content: space-around; }
 
+.intro-index h1 {
+  color: red;
+  padding: 30px;
+  width: 400px auto; }
+
+.intro-index {
+  display: flex;
+  width: 400px auto;
+  height: 250px auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 45px;
+  padding: 30px;
+  color: black; }
+
 .carousel-padre {
   width: 50vw;
   margin: 0 auto;
@@ -140,7 +157,7 @@ h4 {
   color: aliceblue;
   flex-wrap: wrap;
   display: flex;
-  height: 145px;
+  height: 145px auto;
   justify-content: space-evenly;
   align-items: center;
   margin: 15px auto; }
